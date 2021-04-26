@@ -160,6 +160,11 @@ body.no-bg {
   align-items: center;
   margin-bottom: 80px;
 }
+@media (max-width: 768px) {
+  .whats_this__row {
+    flex-direction: column;
+  }
+}
 .whats_this__img {
   width: 20%;
 }
