@@ -73,9 +73,19 @@ body.no-bg {
   margin-bottom: 16px;
   opacity: 0;
 }
+@media (max-width: 1024px) {
+  .header__text {
+    font-size: 24px;
+  }
+}
 .header__text--big {
   font-size: 48px;
   margin-bottom: 32px;
+}
+@media (max-width: 1024px) {
+  .header__text--big {
+    font-size: 32px;
+  }
 }
 .header__text--small {
   font-size: 16px;
@@ -160,13 +170,21 @@ body.no-bg {
   align-items: center;
   margin-bottom: 80px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .whats_this__row {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 .whats_this__img {
   width: 20%;
+}
+@media (max-width: 1024px) {
+  .whats_this__img {
+    margin-bottom: 50px;
+    width: 30%;
+  }
 }
 .whats_this__img--large {
   width: 50%;
@@ -176,9 +194,20 @@ body.no-bg {
   width: 45%;
   margin-left: -80px;
 }
+@media (max-width: 1024px) {
+  .whats_this__img--medium {
+    margin-left: 0;
+  }
+}
 .whats_this__text {
   font-family: 'Dela Gothic One', cursive;
   font-size: 28px;
+}
+@media (max-width: 1024px) {
+  .whats_this__text {
+    text-align: center;
+    margin-bottom: 50px;
+  }
 }
 .choice {
   width: 100%;
