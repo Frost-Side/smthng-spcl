@@ -193,12 +193,12 @@ body.no-bg {
   }
 }
 .whats_this__img {
-  width: 60%;
+  width: 30%;
 }
 @media (max-width: 1024px) {
   .whats_this__img {
     margin-bottom: 50px;
-    width: 30%;
+    width: 60%;
   }
 }
 .whats_this__img--large {
@@ -208,6 +208,7 @@ body.no-bg {
 @media (max-width: 1024px) {
   .whats_this__img--large {
     width: 80%;
+    margin-right: 0;
   }
 }
 .whats_this__img--medium {
