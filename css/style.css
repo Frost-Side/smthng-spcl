@@ -51,6 +51,11 @@ body.no-bg {
   padding: 100px 50px 0;
   flex-direction: column;
 }
+@media (max-width: 1024px) {
+  .header {
+    padding: 50px 25px 0;
+  }
+}
 .header__container {
   background-color: #fff;
   width: 100%;
@@ -62,6 +67,11 @@ body.no-bg {
   position: relative;
   z-index: 1;
   top: -10000px;
+}
+@media (max-width: 1024px) {
+  .header__container {
+    padding: 20px;
+  }
 }
 .header__container--animation {
   animation: headerFalling 3s ease-in-out;
@@ -158,6 +168,11 @@ body.no-bg {
   margin-top: 0;
   padding-top: 100px;
 }
+@media (max-width: 1024px) {
+  .main__heading {
+    font-size: 32px;
+  }
+}
 .whats_this {
   width: 100%;
   max-width: 1440px;
@@ -189,6 +204,11 @@ body.no-bg {
 .whats_this__img--large {
   width: 50%;
   margin-right: 50px;
+}
+@media (max-width: 1024px) {
+  .whats_this__img--large {
+    width: 80%;
+  }
 }
 .whats_this__img--medium {
   width: 45%;
@@ -223,10 +243,21 @@ body.no-bg {
   margin-top: 0;
   padding-top: 100px;
 }
+@media (max-width: 1024px) {
+  .choice__heading {
+    font-size: 24px;
+  }
+}
 .choice__row {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media (max-width: 1024px) {
+  .choice__row {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .choice__button {
   margin-top: 100px;
@@ -250,6 +281,12 @@ body.no-bg {
 }
 .choice__button--not-ok {
   background-color: #f44336;
+}
+@media (max-width: 1024px) {
+  .choice__button {
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
 }
 .footer {
   margin-top: 50px;
