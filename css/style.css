@@ -193,7 +193,7 @@ body.no-bg {
   }
 }
 .whats_this__img {
-  width: 20%;
+  width: 60%;
 }
 @media (max-width: 1024px) {
   .whats_this__img {
@@ -202,7 +202,7 @@ body.no-bg {
   }
 }
 .whats_this__img--large {
-  width: 50%;
+  width: 100%;
   margin-right: 50px;
 }
 @media (max-width: 1024px) {
@@ -211,7 +211,7 @@ body.no-bg {
   }
 }
 .whats_this__img--medium {
-  width: 45%;
+  width: 100%;
   margin-left: -80px;
 }
 @media (max-width: 1024px) {
