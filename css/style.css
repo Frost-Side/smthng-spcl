@@ -202,12 +202,12 @@ body.no-bg {
   }
 }
 .whats_this__img--large {
-  width: 100%;
+  width: 60%;
   margin-right: 50px;
 }
 @media (max-width: 1024px) {
   .whats_this__img--large {
-    width: 80%;
+    width: 100%;
     margin-right: 0;
   }
 }
